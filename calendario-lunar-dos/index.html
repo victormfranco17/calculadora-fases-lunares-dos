@@ -1,0 +1,58 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Lunar de Oribellezas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>jQuery UI Datepicker - Opciones de localización</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script src="jquery.ui.datepicker-es.js"></script>
+
+    
+    <script>
+    $(function () {
+    $.datepicker.setDefaults($.datepicker.regional["es"]);
+    $("#datepicker").datepicker({
+    firstDay: 1,
+    onSelect: function (date){
+    alert(date)
+    }});
+    });
+    </script>
+        <script>
+        jQuery(function ($) {
+        $.datepicker.regional['es'] = {
+        closeText: 'Cerrar',
+        prevText:   nextText,'Sig >',  currentText: 'Hoy', monthNames: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio','julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'], monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun',
+        'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+        dayNames: ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'],
+        dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié;', 'Juv', 'Vie', 'Sáb'],
+        dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'],
+        weekHeader: 'Sm',
+        dateFormat: 'yyyy/mm/dd',
+        firstDay: 1,
+        isRTL: false,
+        showMonthAfterYear: false,
+        yearSuffix: ''
+        };
+        $.datepicker.setDefaults($.datepicker.regional['es']);
+        }); 
+        </script>
+    </script>
+</head>
+<body>
+    <h1>Calendario Lunar de Oribellezas</h1>
+    <div id="calendar"></div>
+    Fecha:
+    <div id="datepicker"></div>
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+
+.full-moon {
+    background-color: #f8f8f8;
+}
+
+.new-moon {
+    background-color: #000000;
+    color: #fff;
+}
+
+.hairCutDays {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.plantingDays {
+    background-color: crimson;
+    border-color: crimson;
+}
+/* Definir variables para los colores */
+:root {
+    --full-moon-color: #f8f8f8;
+    --new-moon-color: #000000;
+    --hair-cut-color: blueviolet;
+    --planting-color: crimson;
+  }
+  
+  /* Usar clases en lugar de ids */
+  .calendar {
+      width: 600px;
+      margin: 0 auto;
+  }
+  
+  .month {
+      margin-bottom: 20px;
+  }
+  
+  .week {
+      display: flex;
+  }
+  
+  .day {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+  }
+  
+  /* Usar nombres más descriptivos para las clases */
+  .full-moon-day {
+      background-color: var(--full-moon-color);
+  }
+  
+  .new-moon-day {
+      background-color: var(--new-moon-color);
+      color: #fff;
+  }
+  
+  .hair-cut-day {
+      background-color: var(--hair-cut-color);
+      border-color: var(--hair-cut-color);
+  }
+  
+  .planting-day {
+      background-color: var(--planting-color);
+      border-color: var(--planting-color);
+  }
+  /* Definir variables para los colores */
+:root {
+    --full-moon-color: #f8f8f8;
+    --new-moon-color: #000000;
+    --hair-cut-color: blueviolet;
+    --planting-color: crimson;
+  }
+  
+  /* Usar clases en lugar de ids */
+  .calendar {
+      width: 600px;
+      margin: 0 auto;
+  }
+  
+  .month {
+      margin-bottom: 20px;
+  }
+  
+  .week {
+      display: flex;
+  }
+  
+  .day {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+  }
+  
+  /* Usar nombres más descriptivos para las clases */
+  .full-moon-day {
+      background-color: var(--full-moon-color);
+  }
+  
+  .new-moon-day {
+      background-color: var(--new-moon-color);
+      color: #fff;
+  }
+  
+  .hair-cut-day {
+      background-color: var(--hair-cut-color);
+      border-color: var(--hair-cut-color);
+  }
+  
+  .planting-day {
+      background-color: var(--planting-color);
+      border-color: var(--planting-color);
+  }
